@@ -1,6 +1,9 @@
-package com.ryrydev.course_api_data;
+package com.ryrydev.course_api_data.controller;
 
 import org.springframework.web.bind.annotation.RestController;
+
+import com.ryrydev.course_api_data.entity.Topic;
+import com.ryrydev.course_api_data.service.TopicService;
 
 import java.util.List;
 

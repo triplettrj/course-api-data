@@ -1,4 +1,4 @@
-package com.ryrydev.course_api_data;
+package com.ryrydev.course_api_data.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

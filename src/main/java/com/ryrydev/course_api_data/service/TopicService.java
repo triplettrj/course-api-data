@@ -1,10 +1,12 @@
-package com.ryrydev.course_api_data;
+package com.ryrydev.course_api_data.service;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import com.ryrydev.course_api_data.entity.Topic;
+import com.ryrydev.course_api_data.repository.TopicRepository;
 
 @Service
 public class TopicService {
