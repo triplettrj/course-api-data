@@ -28,7 +28,8 @@ public class TopicService {
     topicRepository.save(topic);
   }
 
-  public void updateTopic(Topic topic) {
+  public void updateTopic(String id, Topic topic) {
+    topic.setId(id); // Ensure the ID is set for the update
     topicRepository.save(topic);
   }
 
