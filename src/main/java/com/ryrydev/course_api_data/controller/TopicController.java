@@ -46,4 +46,8 @@ public class TopicController {
     topicService.updateTopic(id, topic);
   }
 
+  @PostMapping("/topics/batch")
+  public List<Topic> addTopics(@RequestBody List<Topic> topics) {
+    return topicService.addTopics(topics);
+  }
 }
