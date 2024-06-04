@@ -1,0 +1,2 @@
+INSERT INTO topics (id, name, description) VALUES ('spring', 'Spring Framework', 'Spring Framework Description');
+INSERT INTO courses (id, name, description, topic_id) VALUES ('1', 'Spring Boot', 'Spring Boot Description', 'spring');
