@@ -2,8 +2,10 @@ package com.ryrydev.course_api_data.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
 @Entity
+@Table(name = "topics")
 public class Topic {
 
     @Id 
