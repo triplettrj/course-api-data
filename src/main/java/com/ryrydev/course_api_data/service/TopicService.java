@@ -37,10 +37,5 @@ public class TopicService {
     topicRepository.deleteById(id);
   }
 
-  public List<Topic> addTopics(List<Topic> topics) {
-    topicRepository.saveAll(topics);
-    return topics;
-  }
-
 
 }
