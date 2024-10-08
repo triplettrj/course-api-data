@@ -40,7 +40,6 @@ public class DatabaseInitializer {
         try {
             jdbcTemplate.execute("DROP TABLE courses");
         } catch (Exception e) {
-            
             // Log the exception or handle it if necessary
         }
         try {
