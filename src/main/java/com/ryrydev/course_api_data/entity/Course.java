@@ -32,6 +32,7 @@ public class Course {
     this.topic = new Topic(topicId, "", ""); // Set the topic for the course
   }
 
+  // Getters and setters
   public String getId() {
     return id;
   }
